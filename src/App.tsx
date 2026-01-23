@@ -93,7 +93,7 @@ const App = () => {
           <ul className="space-y-2">
             <li>
               <a href="#" className={linkClasses}>
-                <span>3D Printer - Built from Scratch (Arduino Mega)</span>
+                <span>3D Printer - Built from Scratch</span>
                 <LucideMove3D className="w-4 h-4 text-slate-400 shrink-0" />
               </a>
             </li>
