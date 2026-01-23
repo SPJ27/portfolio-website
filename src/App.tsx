@@ -11,11 +11,12 @@ import {
   CreditCard,
   Laptop,
   ShoppingCart,
+  LucideMove3D,
 } from "lucide-react";
 
 import { RiNextjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaPython, FaReact } from "react-icons/fa";
-import { SiDjango } from "react-icons/si";
+import { SiArduino, SiDjango } from "react-icons/si";
 
 const App = () => {
   const linkClasses =
@@ -74,6 +75,12 @@ const App = () => {
                 <FaPython className="w-4 h-4 text-slate-400 shrink-0" />
               </a>
             </li>
+            <li>
+              <a href="https://www.arduino.cc" target="_blank" className={linkClasses}>
+                <span>Arduino</span>
+                <SiArduino className="w-4 h-4 text-slate-400 shrink-0" />
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -84,6 +91,12 @@ const App = () => {
             <Briefcase className="w-4 h-4 text-slate-400" />
           </div>
           <ul className="space-y-2">
+            <li>
+              <a href="#" className={linkClasses}>
+                <span>3D Printer - Built from Scratch (Arduino Mega)</span>
+                <LucideMove3D className="w-4 h-4 text-slate-400 shrink-0" />
+              </a>
+            </li>
             <li>
               <a href="https://www.cramai.me" className={linkClasses}>
                 <span>CramAI – AI notes & podcasts</span>
