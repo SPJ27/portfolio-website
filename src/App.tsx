@@ -97,6 +97,12 @@ const App = () => {
                 <LucideMove3D className="w-4 h-4 text-slate-400 shrink-0" />
               </a>
             </li>
+ <li>
+              <a href="#" className={linkClasses}>
+                <span>Radium - WSGI Web Framework from scratch</span>
+                <LucideMove3D className="w-4 h-4 text-slate-400 shrink-0" />
+              </a>
+            </li>
             <li>
               <a href="https://www.cramai.me" className={linkClasses}>
                 <span>CramAI – AI notes & podcasts</span>
